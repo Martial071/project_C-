@@ -113,6 +113,9 @@ git stash pop : quand tu reviens sur ta branch ou il y a les modifs
 
 !!!!Non, pas obligatoirement ! Tu peux fusionner (merge) des branches en local sur ton ordinateur sans avoir besoin de les push au préalable et push après.!!!!
 
+## Pull request
+
+Pour les bonnes pratiques, on integres la notion de revue de code
 
 
 
