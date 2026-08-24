@@ -34,7 +34,7 @@ entrée : on a un truc dans le terminal, i pour inserer un message et echap pour
 :WQ (pour valider ton message)
 :q! (quitter et forcer le faite de quitter sans confirmation)
 
-git commit -m message :  eviter l'editeur dans le terminal
+git commit -m message (titre du commentaire) :  eviter l'editeur dans le terminal
 
 git (-u : facultatif) push origin main
 
@@ -113,9 +113,12 @@ git stash pop : quand tu reviens sur ta branch ou il y a les modifs
 
 !!!!Non, pas obligatoirement ! Tu peux fusionner (merge) des branches en local sur ton ordinateur sans avoir besoin de les push au préalable et push après.!!!!
 
-## Pull request
+## Pull request ou merge request : a faire sur github
 
-Pour les bonnes pratiques, on integres la notion de revue de code
+Notifier a github qu'on a envie de rajouter des modifs de notre branch courante sur une autre branch. Permet de merger mais en resolvant directement des problemes.
 
+Créer une pull request, appuyer sur create pull request pour envoyer une demande de merge et donc un autre dev peut voir ton code et les modifs et faire un commentaire,
+
+## Résolution d'un conflit
 
 
