@@ -26,7 +26,7 @@ git status
 
 unstracked files : Tu as fait des modifs sur ta machine mais git ne les prend pas en compte
 
-git add les fichiers: ajout de fichier
+git add les fichiers ou . pour tous les fichiers: ajout de fichier
 git commit "message": figer l'état (informations) de notre fichier dans git 
 entrée : on a un truc dans le terminal, i pour inserer un message et echap pour arreter
 
@@ -66,4 +66,35 @@ Ajoutez-la sur GitHub dans Settings > SSH and GPG keys > New SSH key.
 ssh -T git@github.com
 
 Note : Il est possible d'ajouter plusieurs clés SSH sur un même compte GitHub (par exemple pour différents environnements ou terminaux sur une même machine).
+
+
+## Faire des configurations
+
+Permet d'éviter une demande d'username et adresse mail. A utiliser avec un repos pour une autre personne et donc utiliser ses ident.
+
+Faire une recherche git username pour toute la documentation.
+
+## Evolution d'un projet ( historique )
+
+git log
+git show : plus d'infos que git log
+
+## Rediger un bon commit
+
+'''
+Titre du commit
+
+Description de notre commit avec des infos sur l'évolution du projet
+'''
+git restore --staged fichiers (avant commiter et après add) : pour retirer les fichiers que tu voulais push
+
+
+## Créer des branches
+
+Créer plusieurs branshes en fonction des problèmes et des collab
+
+
+git branch : la liste de  branches sur le projet
+git checkout -b newbranch (develop sur laquelle on developpe le projet) : pour créer un new branch  
+
 
