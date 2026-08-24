@@ -121,4 +121,15 @@ Créer une pull request, appuyer sur create pull request pour envoyer une demand
 
 ## Résolution d'un conflit
 
+Ici car on est plus avancé ici et on peut se permettre des erreurs. Donc on veut ajouter main dans develop.
+Tu peux resolve dans ton editeur
+
+git merge main : pour merge main dans develop
+
+
+
+
+ ou en ligne.
+
+
 
