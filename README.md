@@ -34,7 +34,7 @@ entrée : on a un truc dans le terminal, i pour inserer un message et echap pour
 :WQ (pour valider ton message)
 :q! (quitter et forcer le faite de quitter sans confirmation)
 
-git commit -m message :  eviter l'editeur dans le terminal
+git commit -m message (message différent) :  eviter l'editeur dans le terminal
 
 git (-u : facultatif) push origin main
 
