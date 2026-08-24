@@ -1,4 +1,5 @@
 # Documentation du tuto git
+
 ## Initialisation du depot
 
 '''
@@ -104,9 +105,14 @@ commit après création d'une branche
 
 git checkout branch : déplacer d'une branch à une autre
 git merge branch* : merger le travaille de la branch develop dans la branch courante (pourquoi il faut un git checkout first)
-git stash : garder tes modifs dans une seule branche avant de changer
+
+!!!! git stash : garder tes modifs dans une seule branche avant de changer. Supprime moment et donc ne pourra pas être present dans l'autre branch si tu merge !!!!
+
 ou tu git push avant de changer sinon tu conserveras les mêmes modifs de part et d'autre de ta branche
 git stash pop : quand tu reviens sur ta branch ou il y a les modifs
+
+!!!!Non, pas obligatoirement ! Tu peux fusionner (merge) des branches en local sur ton ordinateur sans avoir besoin de les push au préalable et push après.!!!!
+
 
 
 
