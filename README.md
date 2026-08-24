@@ -38,7 +38,8 @@ git commit -m message :  eviter l'editeur dans le terminal
 
 git (-u : facultatif) push origin main
 
-
+git pull origin main : recup des modifs
+a partir du serveur
 '''
 
 
