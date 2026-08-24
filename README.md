@@ -97,4 +97,16 @@ Créer plusieurs branshes en fonction des problèmes et des collab
 git branch : la liste de  branches sur le projet
 git checkout -b newbranch (develop sur laquelle on developpe le projet) : pour créer un new branch  
 
+rmque :  ligne vert ajout de code et ligne bleu modif en vs code
+commit après création d'une branche
+
+## Merger les branches : transferer les infos de la branche develop dans main
+
+git checkout branch : déplacer d'une branch à une autre
+git merge branch* : merger le travaille de la branch develop dans la branch courante (pourquoi il faut un git checkout first)
+git stash : garder tes modifs dans une seule branche avant de changer
+ou tu git push avant de changer sinon tu conserveras les mêmes modifs de part et d'autre de ta branche
+git stash pop : quand tu reviens sur ta branch ou il y a les modifs
+
+
 
